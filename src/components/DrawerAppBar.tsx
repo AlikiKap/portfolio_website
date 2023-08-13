@@ -8,14 +8,15 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 function DrawerAppBar() {
-  const logoStyle={background:`  background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+  const logoStyle = {
+    background: `  background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;`}
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav"  style={{backgroundColor:'#212121'}}>
+      <AppBar component="nav" style={{ backgroundColor: '#212121' }}>
         <Toolbar>
 
           <Typography
@@ -28,7 +29,7 @@ function DrawerAppBar() {
             &lt;Aliki &#47;&gt;
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }} >
-            {['home','projects', 'cv'].map((item) => (
+            {['home', 'projects', 'cv'].map((item) => (
               <Button component={Link} to={`/${item}`} key={item} sx={{ color: '#BEFF34' }}>
                 {item}
               </Button>

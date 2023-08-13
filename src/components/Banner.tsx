@@ -18,21 +18,21 @@ function Banner() {
       >
         <div>
         <Typography 
-        fontSize="28px"
+        fontSize="24px"
         fontWeight="600"
         >
           Hello, my name is Aliki Kapasakalidi and I am a 
           <mark 
           style={{background:"#BEFF34",borderRadius:'32px',paddingInline:'8px', marginInline:'8px'}}
           >
-            front-end
+            front-end developer 
           </mark> 
-          developer searching for a place where I can:
+          searching for a place where I can:
 </Typography>
 <ul>
   <li>
     <Typography         
-        fontSize="28px"
+        fontSize="24px"
         fontWeight="600"
         >
       Take part in working on interesting projects that solve real life problems
@@ -40,7 +40,7 @@ function Banner() {
   </li>
   <li>
   <Typography         
-        fontSize="28px"
+        fontSize="24px"
         fontWeight="600"
         >
         Work in a team
@@ -48,7 +48,7 @@ function Banner() {
   </li>
   <li>
   <Typography         
-        fontSize="28px"
+        fontSize="24px"
         fontWeight="600"
         >
       Learn new things everyday
