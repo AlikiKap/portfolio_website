@@ -31,14 +31,6 @@ function Banner() {
 </Typography>
 <ul>
   <li>
-    <Typography         
-        fontSize="24px"
-        fontWeight="600"
-        >
-      Take part in working on interesting projects that solve real life problems
-    </Typography>
-  </li>
-  <li>
   <Typography         
         fontSize="24px"
         fontWeight="600"
@@ -52,6 +44,14 @@ function Banner() {
         fontWeight="600"
         >
       Learn new things everyday
+    </Typography>
+  </li>
+  <li>
+    <Typography         
+        fontSize="24px"
+        fontWeight="600"
+        >
+      Take part in working on interesting projects that solve real life problems
     </Typography>
   </li>
 </ul>
