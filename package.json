@@ -1,7 +1,7 @@
 {
   "name": "portfolio_website",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://alikikap.github.io/portfolio_website/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
