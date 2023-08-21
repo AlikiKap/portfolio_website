@@ -13,7 +13,7 @@ function ProjectCard({ project }: any) {
                 </Typography>
                 <Typography>
                     <mark
-                        style={{ fontWeight: '600', background: "#D45BFF", borderRadius: '32px', paddingInline: '8px', marginInline: '8px' }}
+                        style={{ fontWeight: '600', background: "#D45BFF", borderRadius: '32px', paddingInline: '8px' }}
                     >
                         {project.tools}
                     </mark>
