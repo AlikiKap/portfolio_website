@@ -8,11 +8,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
 function DrawerAppBar() {
-  const logoStyle = {
-    background: `  background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;`}
+
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -24,9 +20,10 @@ function DrawerAppBar() {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             fontWeight='800'
             fontSize='24px'
-            style={logoStyle}
           >
-            &lt;Aliki &#47;&gt;
+            <Link to='/home' style={{ color: 'white', textDecoration: 'none', fontSize: '32px' }}>
+              &lt;Aliki &#47;&gt;
+            </Link>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }} >
             {['home', 'projects', 'cv'].map((item) => (
