@@ -1,7 +1,7 @@
 import React from 'react';
-import ProjectCard from '../components/ProjectCard';
+import ProjectCard from './components/ProjectCard';
 import { Grid } from '@mui/material';
-import Footer from '../components/Footer';
+import Footer from './components/Footer';
 
 function Projects() {
   const projects = [

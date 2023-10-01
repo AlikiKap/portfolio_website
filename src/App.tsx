@@ -1,13 +1,15 @@
 import React from 'react';
 import DrawerAppBar from './components/DrawerAppBar';
-import { Outlet } from 'react-router-dom';
+import Home from './pages/Home';
+import Projects from './Projects';
 
 
 function App() {
   return (
     <div style={{background:'#121212'}}>
     <DrawerAppBar/>
-    <Outlet/>
+    <Home/>
+    <Projects/>
     </div>
   );
 }

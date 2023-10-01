@@ -4,6 +4,7 @@ import { Typography, Grid, Stack, Link } from '@mui/material'
 import Footer from '../components/Footer'
 
 function Home() {
+  
   return (
     <>
       <Banner />
