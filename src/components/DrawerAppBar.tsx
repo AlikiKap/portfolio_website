@@ -5,7 +5,6 @@ import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 
 function DrawerAppBar() {
 
@@ -25,13 +24,7 @@ function DrawerAppBar() {
               &lt;Aliki &#47;&gt;
             </Link>
           </Typography>
-          <Box sx={{ display: { xs: 'none', sm: 'block' } }} >
-            {['home', 'projects', 'cv'].map((item) => (
-              <Button component={Link} to={`/${item}`} key={item} sx={{ color: '#BEFF34' }}>
-                {item}
-              </Button>
-            ))}
-          </Box>
+
         </Toolbar>
       </AppBar>
       <Box component="nav">
