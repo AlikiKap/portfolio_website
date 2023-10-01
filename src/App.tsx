@@ -2,6 +2,7 @@ import React from 'react';
 import DrawerAppBar from './components/DrawerAppBar';
 import Home from './pages/Home';
 import Projects from './Projects';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <DrawerAppBar/>
     <Home/>
     <Projects/>
+    <Footer/>
     </div>
   );
 }

@@ -59,7 +59,6 @@ function Projects() {
           project => <ProjectCard project={project} />
         )}
       </Grid>
-      <Footer />
     </>
   )
 }

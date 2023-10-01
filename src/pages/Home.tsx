@@ -41,7 +41,6 @@ function Home() {
             ) in my free time.
           </Typography>
         </Stack>
-        <Footer />
       </Grid>
     </>
   )
