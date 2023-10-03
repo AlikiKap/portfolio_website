@@ -5,8 +5,9 @@ function ProjectCard({ project }: any) {
 
     return (
         <Card style={{ background: '#212121', color: 'white', width: '60%', padding: '16px', marginBottom: '16px' }}>
-            <CardContent>
+            <CardContent style={{textAlign:"center"}}>
                 <Typography style={{ fontSize: "22px", fontWeight: "800" }}>{project.name}</Typography>
+                <img src={project.image} alt={project.name} width="80%"/>
                 <Typography>{project.description}</Typography>
                 <Typography>
                     Techologies used:
