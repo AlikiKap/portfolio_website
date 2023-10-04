@@ -7,7 +7,8 @@ function Home() {
   
   return (
     <>
-      <Banner />
+      <Banner/>
+      <Footer/>
       <Grid
         container
         justifyContent="center"
