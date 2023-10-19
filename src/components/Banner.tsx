@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button, Grid, Link, Stack, Typography } from '@mui/material'
+import { Button, Grid, Stack, Typography } from '@mui/material'
 import avatar from './icon.png';
+import { Link } from 'react-router-dom';
 
 
 function Banner() {
@@ -36,10 +37,13 @@ function Banner() {
           >
             Contact me:
           </Typography>
-          <Link underline="always" style={{ color: '#BEFF34', fontSize: "24px", fontWeight: "400" }} href='mailto:aliki02.kapasakalidi@gmail.com'>aliki02.kapasakalidi@gmail.com</Link>
-          <Button variant='outlined' style={{ border: '2px solid #BEFF34', color: 'white', fontSize: "18px", fontWeight: "400", margin: '12px' }} href='./CV_Aliki_Kapasakalidi.pdf' download>Download Resume</Button>
+          <Link style={{ color: '#BEFF34', fontSize: "24px", fontWeight: "400" }} to='mailto:aliki02.kapasakalidi@gmail.com'>aliki02.kapasakalidi@gmail.com</Link>
+          <Link to="https://drive.google.com/file/d/1kUkWIP_kHr0KzW_g8T-u-wN71hshhD0c/view?usp=share_link">
+          {/* <Link to='CV-Aliki-Kapasakalidi-Fullstack.pdf'> */}
+          <Button variant='outlined' style={{ border: '2px solid #BEFF34', color: 'white', fontSize: "18px", fontWeight: "400", margin: '12px' }}>Download Resume</Button>
+          </Link>
         </div>
-        <img src={avatar} alt='avatar-picture' style={{ width: '400px', height: 'auto' }} />
+        <img src={avatar} alt='avatar-picture' style={{ width: '40%', height: 'auto' }} />
 
       </Stack>
     </div>
