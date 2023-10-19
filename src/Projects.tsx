@@ -62,7 +62,7 @@ function Projects() {
         display='flex'
         alignItems='center'
         justifyContent='center'
-        spacing={2}>
+        >
         {projects.map(
           project => <ProjectCard project={project} />
         )}

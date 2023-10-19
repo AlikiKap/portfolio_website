@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import PdfViewer from './components/PdfViewer';
 
 
 const root = ReactDOM.createRoot(
@@ -13,8 +14,8 @@ root.render(
   <React.StrictMode>
       <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-      <Route path="/" element={<App/>}>
-          </Route>
+      < Route path="/" element={<App/>} />
+      <Route path="CV-Aliki-Kapasakalidi-Fullstack.pdf" element={<PdfViewer/>}/>
       </Routes>
       </BrowserRouter>
 </React.StrictMode>
