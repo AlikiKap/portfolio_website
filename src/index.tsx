@@ -15,7 +15,7 @@ root.render(
       <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
       < Route path="/" element={<App/>} />
-      <Route path="CV-Aliki-Kapasakalidi-Fullstack.pdf" element={<PdfViewer/>}/>
+      <Route path="CV-Aliki-Kapasakalidi-Data_engineer.pdf" element={<PdfViewer/>}/>
       </Routes>
       </BrowserRouter>
 </React.StrictMode>

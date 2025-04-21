@@ -27,7 +27,7 @@ function Banner() {
             <mark
               style={{ background: "#BEFF34", borderRadius: '32px', paddingInline: '8px', marginInline: '8px' }}
             >
-              full stack web developer
+              Data Engineer
             </mark>
             searching for a place where I can expand my knowledge and skills while working on interesting and important projects with a team.
           </Typography>

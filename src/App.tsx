@@ -1,7 +1,8 @@
 import DrawerAppBar from './components/DrawerAppBar';
 import Home from './pages/Home';
-import Projects from './Projects';
 import Footer from './components/Footer';
+import { Grid } from '@mui/material';
+
 
 
 function App() {
@@ -10,7 +11,6 @@ function App() {
       <div style={{ background: '#121212' }}>
         <DrawerAppBar />
         <Home />
-        <Projects />
         <Footer />
       </div>
     </>
